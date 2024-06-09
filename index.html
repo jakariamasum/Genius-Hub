@@ -10,13 +10,157 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      .primary-color{
+        color:#FF8C7D
+      }
+      .secondary-color{
+        color: #797979;
+      }
+      
+    .course-card img {
+            width: 100%;
+            height: auto;
+        }
+        .course-card .sale-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 8px;
+            font-size: 12px;
+        }
+        .course-card .icons {
+            
+            color: black;
+            background-color: #fff;
+            border-radius: 44.79px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .course-card .icons-container{
+           position: absolute; 
+           gap: 5px;
+          bottom: 10px;
+            left: 40%; 
+          display: flex;
+          justify-content: center;
+        }
+        .card-footer {
+            background-color: white;
+        }
+        .btn-outline{
+          border: 1px solid #FF8C7D;
+          color: #FF8C7D;
+          font-weight: bold;
+        }
+        .btn-outline:hover{
+          border: 1px solid green;
+          color: green;
+        }
+    </style>
   </head>
   <body>
-    <p class="bg-success">genius hub</p>
+    <div class="container">
+      <!-- popular course -->
+      <section>
+        <p class="mb-0 primary-color">Practice Advice</p>
+        <h1 class="fw-bold">Most Popular Course</h1>
+        <p class="text-muted">
+          Problems trying to resolve the conflict between <br />
+          the two major realms of Classical physics: Newtonian mechanics
+        </p>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="position-relative">
+                    <img src="./images/course1.jpg" class="card-img-top" alt="Course 1">
+                    <div class="sale-badge">Sale</div>
+                  <div class="icons-container">
+                    <i class="fa-regular fa-heart icons" ></i>
+                    <i class="fa-solid fa-bag-shopping icons"></i>
+                    <i class="fa-regular fa-eye icons"></i>
+                  </div>
+                    </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <small class="primary-color fw-semibold">Certified Teacher</small>
+                    <span class="float-right">⭐ 4.9</span>
+                </div>
+                    <h5 class="card-title fw-bold">Most Popular Courses</h5>
+                    <p class="card-text text-muted">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                    <p class="d-flex gap-1 align-items-center secondary-color"><i class="fa-solid fa-arrow-down"></i>15 Sales</p>
+                    <p><span class="text-secondary">$16.48</span> <span class="text-primary">$6.48</span></p>
+                    <a href="#" class="btn btn-outline">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="position-relative">
+                    <img src="./images/course2.jpg" class="card-img-top" alt="Course 1">
+                    <div class="sale-badge">Sale</div>
+                  <div class="icons-container">
+                    <i class="fa-regular fa-heart icons" ></i>
+                    <i class="fa-solid fa-bag-shopping icons"></i>
+                    <i class="fa-regular fa-eye icons"></i>
+                  </div>
+                    </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <small class="primary-color fw-semibold">Certified Teacher</small>
+                    <span class="float-right">⭐ 4.9</span>
+                </div>
+                    <h5 class="card-title fw-bold">Most Popular Courses</h5>
+                    <p class="card-text text-muted">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                    <p class="d-flex gap-1 align-items-center secondary-color"><i class="fa-solid fa-arrow-down"></i>15 Sales</p>
+                    <p><span class="text-secondary">$16.48</span> <span class="text-primary">$6.48</span></p>
+                    <a href="#" class="btn btn-outline">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="position-relative">
+                    <img src="./images/course3.jpg" class="card-img-top" alt="Course 1">
+                    <div class="sale-badge">Sale</div>
+                  <div class="icons-container">
+                    <i class="fa-regular fa-heart icons" ></i>
+                    <i class="fa-solid fa-bag-shopping icons"></i>
+                    <i class="fa-regular fa-eye icons"></i>
+                  </div>
+                    </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <small class="primary-color fw-semibold">Certified Teacher</small>
+                    <span class="float-right">⭐ 4.9</span>
+                </div>
+                    <h5 class="card-title fw-bold">Most Popular Courses</h5>
+                    <p class="card-text text-muted">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                    <p class="d-flex gap-1 align-items-center secondary-color"><i class="fa-solid fa-arrow-down"></i>15 Sales</p>
+                    <p><span class="text-secondary">$16.48</span> <span class="text-primary">$6.48</span></p>
+                    <a href="#" class="btn btn-outline">Learn More <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/665d6425d5.js" crossorigin="anonymous"></script>
   </body>
 </html>
